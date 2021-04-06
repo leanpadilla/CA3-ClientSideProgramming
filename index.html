@@ -8,29 +8,62 @@
         href="https://fonts.googleapis.com/css?family=Poppins"
         rel="stylesheet" />
         <link rel="stylesheet" href="./styles.css" />
+        <script> src="payment.js"</script>
+        
         <title>Dropdown</title>
 
     </head>
 
     <body>
         <nav>
+
+          <!--single info-->
+           <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+              <span class="cart-info_icon mr-lg-5"><i class="fas fa-shopping-cart"></i></span>
+              <p class="mb-0 text-capitalize"><span id="item-count">2
+               </span> items - $<span class="item-total">10.49</span></p>
+            </div>
+          <!--end of single info-->
+
+                  <!--cart info-->
+           <div id="cart" class="cart">
+                  <!--cart item-->
+                <div class="cart-item d-flex justify-content-between-tet-capitalize my-3">
+                    <img src="#" class="Img-fluid-rounded-circle" id="item-img" alt="#"> 
+                <div class="item-text">
+                <p id="cart-item-title" class="font-weight-bold mb-0">cart-item</p>
+                <span>$</span>
+                <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
+               </div>
+                    <a href="#" id="cart-item-remove" class="cart-item-remove"><i class="fas fa-trash"></i></a>
+
+                </div>
+          
+            </div>
+
+
            <div class="dropdown">
              <button><a href="#">Home</a></button>
-                <div class="Starters">
+                <div class="starters">
                     <button>Starters</button>
                     <ul>   
-                          <li><a href="#">Starter1</a></li>
-                          <li><a href="#">Starter2</a></li>
-                          <li><a href="#">Starter3</a></li>
-                          <li><a href="#">Starter4</a></li>
-                          <li><a href="#">VegStarter1</a></li>
+                          <li><a href="#">Stracciatella Soup</a></li>
+
+                          <li><a href="#">Focaccia Pugliese with Fresh Tomatoes</a></li>
+
+                          <li><a href="#">Mozzarella Bruschetta with Rocket Drizzle</a></li>
+
+                          <li><a href="#">Stuffed Aubergine Rolls</a></li>
+
+                          <li><a href="#">Grilled Aubergine Salad</a></li>
+
                           <li><a href="#">VegStarter2</a></li>
                           
                     </ul>
                 </div>   
              
-                <div class="Mains">
-                    <button>Main</button>
+                <div class="mains">
+                    <button>Mains</button>
                     <ul>   
                           <li><a href="#">Main1</a></li>
                           <li><a href="#">Main2</a></li>
@@ -42,7 +75,7 @@
                     </ul>
                 </div>   
 
-                <div class="Desserts">
+                <div class="desserts">
                     <button>Desserts</button>
                     <ul>   
                           <li><a href="#">Dessert1</a></li>
@@ -55,17 +88,18 @@
                     </ul>
                 </div>   
 
-                <div class="Drinks">
+                <div class="drinks">
                     <button>Drinks</button>
                     <ul>   
                           <li><a href="#">Coca-Cola 330ml</a></li>
                           <li><a href="#">Coca-Cola Zero 330ml</a></li>
                           <li><a href="#">Fanta 330ml</a></li>
                           <li><a href="#">Club Orange 330ml</a></li>
-                          <li><a href="#">7up</a></li>
-                          <li><a href="#">7up Zero</a></li>
-                          <li><a href="#">Tropicana Orange Bits 5ooml</a></li>
-                          <li><a href="#">Tropicana Orange Smooth 5ooml</a></li>
+                          <li><a href="#">7up330ml</a></li>
+                          <li><a href="#">7up Zero 330ml</a></li>
+                          <li><a href="#">Trop Bits 500ml</a></li>
+                          <li><a href="#">Trop Smooth 5ooml</a></li>
+                          <li><a href="#">Orange Juice 5ooml</a></li>
 
                     </ul>
                 </div> 
